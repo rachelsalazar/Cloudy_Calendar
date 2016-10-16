@@ -1,0 +1,10 @@
+#login-form {
+  border: 1px solid #444444;
+  padding: 30px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#login-form a {
+  text-decoration: none;
+}
