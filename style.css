@@ -1,8 +1,18 @@
+body {
+  background-image: url("background.jpeg");
+  background-size: cover;
+}
+
 #login-form {
-  border: 1px solid #444444;
-  padding: 30px;
-  max-width: 200px;
+  max-width: 250px;
   margin: 0 auto;
+}
+
+form {
+  border-radius: 5px;
+  margin-top: 10em;
+  background-color: rgba(66, 66, 66, .8);
+  padding: 30px;
 }
 
 #login-form a {
