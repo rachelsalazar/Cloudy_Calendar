@@ -1,5 +1,6 @@
 body {
   background-image: url("background.jpeg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -22,6 +23,7 @@ form {
 }
 
 #member {
+  font-size: .8em;
   padding-top: 30px;
 }
 
