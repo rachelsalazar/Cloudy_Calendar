@@ -6,13 +6,23 @@ body {
 #login-form {
   max-width: 250px;
   margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 
 form {
-  border-radius: 5px;
+  border-radius: 3px;
   margin-top: 10em;
+  color: #ffffff;
   background-color: rgba(66, 66, 66, .8);
   padding: 30px;
+}
+
+#login-button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 #login-form a {
