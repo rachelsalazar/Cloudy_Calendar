@@ -9,6 +9,7 @@ header {
   text-align: center;
 }
 
+ /*cloudy calendar photo*/
 #logo {
   max-width: 500px;
   position: absolute;
@@ -16,6 +17,7 @@ header {
   margin-left: -15.5em;
 }
 
+/*login form*/
 #login-form {
   max-width: 250px;
   margin: 0 auto;
@@ -23,6 +25,15 @@ header {
   text-align: center;
   margin-top: 14em;
   cursor: default;
+}
+
+#login-form a {
+  text-decoration: none;
+  transition: 300ms;
+}
+
+#login-form a:hover {
+  font-size: 15px;
 }
 
 form {
@@ -33,6 +44,7 @@ form {
   opacity: .5;
 }
 
+/*not a member text*/
 #member {
   font-size: .8em;
   padding-top: 30px;
@@ -40,6 +52,7 @@ form {
   cursor: default;
 }
 
+/*input for email and password*/
 .input-form {
   border-bottom: 2px solid #000;
   border-left: none;
@@ -84,14 +97,6 @@ form {
   outline: none;
 }
 
-#login-form a {
-  text-decoration: none;
-  transition: 300ms;
-}
-
-#login-form a:hover {
-  font-size: 15px;
-}
 
 /***************************
 changing background images
