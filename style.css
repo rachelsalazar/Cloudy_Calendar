@@ -1,13 +1,28 @@
-body {
-  background-image: url("images/background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+40% { left: -100%; }
+60% { left: -100%; }
+80% { left: -200%; }
+100% { left: -200%; }
+}
+
+body { margin: 0; z-index: -1; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: absolute;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 15s slidy infinite;
 }
 
 #logo {
   max-width: 500px;
   position: absolute;
-  margin-top: -150px;
+  margin-top: -10em;
 }
 
 #login-form {
@@ -15,16 +30,14 @@ body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   text-align: center;
-}
-
-#login-form h1 {
-  margin-top: 6em;
+  margin-top: 10em;
 }
 
 form {
   border-radius: 2px;
   color: #ffffff;
-  background-color: rgba(99, 99, 99, .7);
+  background-color: #fff;
+  opacity: .5;
   padding: 30px;
 }
 
