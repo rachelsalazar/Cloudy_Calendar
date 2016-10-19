@@ -1,0 +1,63 @@
+body {
+  background-image: url("images/sunset.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+header a {
+  display: inline-block;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 16px;
+  transition: 300ms;
+  font-family: "Roboto", sans-serif;
+  margin-right: 5px;
+  transition: 300ms;
+}
+
+header a:hover {
+  background-color: #fff;
+  opacity: .5;
+}
+
+/*cloudy calendar photo*/
+#logo {
+ max-width: 500px;
+ position: absolute;
+ margin-left: -15.5em;
+}
+
+
+/***************************
+changing background images
+***************************/
+/*@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+40% { left: -100%; }
+60% { left: -100%; }
+80% { left: -200%; }
+100% { left: -200%; }
+}
+
+body { margin: 0; z-index: -1; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+position: absolute;
+width: 500%;
+margin: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}*/
