@@ -1,7 +1,13 @@
 body {
-  background-image: url("background.jpeg");
+  background-image: url("images/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#logo {
+  max-width: 500px;
+  position: absolute;
+  margin-top: -150px;
 }
 
 #login-form {
