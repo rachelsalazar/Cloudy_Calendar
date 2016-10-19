@@ -1,13 +1,19 @@
 body {
   background-image: url("images/sunset.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
+header {
+  width: 100%;
+  text-align: center;
+}
 
 #logo {
   max-width: 500px;
   position: absolute;
   margin-top: -13em;
+  margin-left: -15.5em;
 }
 
 #login-form {
@@ -16,6 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 14em;
+  cursor: default;
 }
 
 form {
@@ -30,6 +37,7 @@ form {
   font-size: .8em;
   padding-top: 30px;
   color: #000;
+  cursor: default;
 }
 
 .input-form {
