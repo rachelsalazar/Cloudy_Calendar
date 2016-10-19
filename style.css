@@ -1,28 +1,19 @@
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-40% { left: -100%; }
-60% { left: -100%; }
-80% { left: -200%; }
-100% { left: -200%; }
+body {
+  background-image: url("images/sunset.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-body { margin: 0; z-index: -1; }
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure {
-  position: absolute;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  animation: 15s slidy infinite;
+header {
+  width: 100%;
+  text-align: center;
 }
 
 #logo {
   max-width: 500px;
   position: absolute;
-  margin-top: -10em;
+  margin-top: -13em;
+  margin-left: -15.5em;
 }
 
 #login-form {
@@ -30,24 +21,27 @@ div#slider figure {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-top: 10em;
+  margin-top: 14em;
+  cursor: default;
 }
 
 form {
   border-radius: 2px;
-  color: #ffffff;
+  color: #000;
   background-color: #fff;
-  opacity: .5;
   padding: 30px;
+  opacity: .5;
 }
 
 #member {
   font-size: .8em;
   padding-top: 30px;
+  color: #000;
+  cursor: default;
 }
 
 .input-form {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -77,6 +71,7 @@ form {
   font-size: 16px;
   transition: 300ms;
   font-family: "Roboto", sans-serif;
+  border: 1px solid #999;
 }
 
 #login-button:hover {
@@ -91,4 +86,33 @@ form {
 
 #login-form a {
   text-decoration: none;
+  transition: 300ms;
 }
+
+#login-form a:hover {
+  font-size: 15px;
+}
+
+/***************************
+changing background images
+***************************/
+/*@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+40% { left: -100%; }
+60% { left: -100%; }
+80% { left: -200%; }
+100% { left: -200%; }
+}
+
+body { margin: 0; z-index: -1; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+position: absolute;
+width: 500%;
+margin: 0;
+left: 0;
+text-align: left;
+animation: 15s slidy infinite;
+}*/
