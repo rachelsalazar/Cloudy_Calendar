@@ -1,0 +1,18 @@
+body {
+  background-image: url("images/sunset.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+ /*cloudy calendar photo*/
+#logo {
+  max-width: 500px;
+  position: absolute;
+  margin-top: .5em;
+  margin-left: -15.5em;
+}
