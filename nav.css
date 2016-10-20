@@ -14,7 +14,7 @@ header a {
   display: inline-block;
   float: right;
   font-family: "Roboto", sans-serif;
-  color: #555;
+  color: #666;
   padding: 10px;
   text-decoration: none;
   border-radius: 2px;
@@ -27,7 +27,7 @@ header a {
 
 header a:hover {
   background-color: #fff;
-  opacity: .5;
+  opacity: .7;
 }
 
 /*cloudy calendar photo*/
